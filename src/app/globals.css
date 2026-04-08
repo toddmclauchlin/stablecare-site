@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap');
+
+:root {
+  --navy: #1e3a5f;
+  --navy-dark: #152a45;
+  --navy-light: #2a5080;
+  --amber: #d97706;
+  --amber-light: #f59e0b;
+  --cream: #fefce8;
+  --cream-dark: #fef9c3;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --bg: #ffffff;
+  --bg-alt: #f8fafc;
+  --border: #e2e8f0;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.font-serif {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'DM Sans', system-ui, sans-serif;
+}
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
+
+/* Custom selection color */
+::selection {
+  background: rgba(217, 119, 6, 0.2);
+  color: var(--navy);
+}
